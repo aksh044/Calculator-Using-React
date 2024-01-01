@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.struct {
+  background-color: #38373a;
+  padding: 0px 15px;
+  width: 300px;
+  border: solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 20px 20px #b4353e;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+}
+body {
+  /* background-color: #f2767c; */
+  background: linear-gradient(135deg, #f2767c, #f15a2a);
+  /* background-image: url("henry-co--odUkx8C2gg-unsplash.jpg"); */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+.textbox {
+  text-align: center;
+  padding: 15px;
+}
+
+#result {
+  background-color: #a2af77;
+  width: 248px;
+  height: 70px;
+  font-size: 30px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  padding: 5px;
+}
+
+.butt {
+  background-color: #57585a;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  margin: 5px;
+  width: 60px;
+  border-radius: 18px;
+  box-shadow: 3px 3px black;
+}
+
+.equal {
+  flex-grow: 0.8;
+  background-color: #f15a2a;
+}
+
+.first {
+  background-color: #110c0e;
+}
